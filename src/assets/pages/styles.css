@@ -1,0 +1,21 @@
+.card-bg-grey{
+    background-color: #111;
+}
+
+.stars {
+  position: fixed;
+  inset: 0;
+
+  background-image:
+    radial-gradient(circle at 20% 30%, rgb(255, 255, 255) 1px, transparent 1px),
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,.3) 1px, transparent 1px),
+    radial-gradient(circle at 60% 70%, rgb(255, 255, 255) 1px, transparent 1px),
+    radial-gradient(circle at 30% 80%, rgba(255,255,255,.2) 1px, transparent 1px);
+
+  background-size: 250px 250px;
+  opacity: .35;
+}
+
+.icon-small{
+  width: 40px;
+}
